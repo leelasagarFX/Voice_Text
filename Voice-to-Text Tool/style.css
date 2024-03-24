@@ -1,13 +1,16 @@
 *{
     margin: 0;
     padding: 0;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
     box-sizing: border-box;
 
 }
 html{
-    font-family:Arial, Helvetica, sans-serif;
-    font-size: 16px;
+    font-family: "Josefin Sans", sans-serif;  font-weight: 100;
+  font-style: normal;
 }
 section{
     min-height: 100vh;
@@ -15,8 +18,9 @@ section{
     display: flex;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(45deg, #000328, #00458e , #002955, #000328);    flex-direction: column;
+    flex-direction: column;
     padding: 25px 0;
+    background-image: url(images/glassbg00.jpg);
     
 }
 section h1{
@@ -27,8 +31,11 @@ section h1{
     margin-bottom: 60px;
 }
 h1 span
-{
-    color: #00f2ff;
+{   
+    color: #00f2ff; 
+    font-style: normal;
+    font-optical-sizing: auto;
+    font-weight: 500;
 }
 section p{
     color: rgb(47, 47, 47);
@@ -47,6 +54,7 @@ section p{
     color: rgb(255, 255, 255);
     background-color: #ffffff32;
     padding: 10px;
+    font-weight: 300;
     border-radius: 7px;
     margin-bottom: 10px;
     text-align: left;
@@ -57,6 +65,7 @@ section p{
 }
 
 button{
+    font-weight: 300;
     background: #038dcd;
     color: #ffff;
     font-size: 20px;
@@ -74,6 +83,8 @@ button{
 }
 
 .switch{
+    font-weight: 300;
+    font-weight: 100;
     background: #ffffff1f;
     color: #979797;
     font-size: 20px;

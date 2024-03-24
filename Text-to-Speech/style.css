@@ -1,14 +1,17 @@
 *{
     margin: 0;
     padding: 0;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
     box-sizing: border-box;
 }
 
 .container{
     width: 100%;
     min-height: 100vh;
-    background: linear-gradient(45deg, #000328, #00458e , #002955, #000328);
+    background-image: url(images/glassbg00.jpg);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -22,10 +25,12 @@
     margin-bottom: 60px;
 }
 .container h1 span{
+    font-weight: 500;
     color: #00f2ff;
 }
 
 textarea{
+    font-weight: 300;
     width: 700px;
     height: 300px;
     background: #ffffff32;
@@ -39,16 +44,20 @@ textarea{
     margin-bottom: 30px;
 }
 textarea::placeholder{
+    font-weight: 300;
     font-size: 16px ;
     color: #ffffff;
 }
 .list{
+    font-weight: 400;
     width: 500px;
     display: flex;
     align-items: center;
     gap: 17px;
 }
 button{
+    align-items: center;
+    font-weight: 400;
     background: #038dcd;
     color: #ffffff;
     font-size: 16px;
@@ -67,6 +76,7 @@ select{
     color: #000000;
     background: #ffffff32;
     height: 50px;
+    font-weight: 400;
     padding: 0 20px;
     outline: 0;
     border: 0;
@@ -87,6 +97,7 @@ select{
     border-radius: 10px;
     border: 0;
     outline: 0;
+    font-weight: 300;
     cursor: pointer;
     position: absolute;
     transform: translate(-50%, -50%);
@@ -108,6 +119,7 @@ select{
     position: absolute;
     transform: translate(-50%, -50%);
     top: 32%;
+    font-weight: 300;
     right: 0%;
     min-width: 200px; 
     max-width: 200px;
