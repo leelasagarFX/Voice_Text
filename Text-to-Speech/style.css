@@ -18,6 +18,7 @@
     flex-direction: column;
 }
 .container h1{
+    
     color: white;
     font-size: 50px;
     font-weight: 510;
@@ -30,12 +31,12 @@
 }
 
 textarea{
+    font-size: large;
     font-weight: 300;
     width: 700px;
     height: 300px;
-    background: #ffffff32;
+    background: #ffffff2a;
     color: #ffffff;
-    font-size: 16px;
     border: 0;
     outline: 0;
     padding: 20px;
@@ -44,11 +45,12 @@ textarea{
     margin-bottom: 30px;
 }
 textarea::placeholder{
+    font-size: large;
     font-weight: 300;
-    font-size: 16px ;
     color: #ffffff;
 }
 .list{
+    font-size: large;
     font-weight: 400;
     width: 500px;
     display: flex;
@@ -56,6 +58,7 @@ textarea::placeholder{
     gap: 17px;
 }
 button{
+    
     align-items: center;
     font-weight: 400;
     background: #038dcd;
@@ -72,6 +75,7 @@ button img{
     margin-right: 10px;
 }
 select{
+    font-size: smaller;
     flex: 1;
     color: #000000;
     background: #ffffff32;

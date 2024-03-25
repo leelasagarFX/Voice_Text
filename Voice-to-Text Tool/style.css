@@ -38,6 +38,7 @@ h1 span
     font-weight: 500;
 }
 section p{
+    font-size: large;
     color: rgb(47, 47, 47);
     width: 100%;
     margin-bottom: 30px;
@@ -52,7 +53,7 @@ section p{
 }
 .text p{
     color: rgb(255, 255, 255);
-    background-color: #ffffff32;
+    background: #ffffff2a;
     padding: 10px;
     font-weight: 300;
     border-radius: 7px;
